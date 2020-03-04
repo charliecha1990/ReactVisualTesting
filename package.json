@@ -1,0 +1,25 @@
+{
+  "name": "plotly-json-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jsoneditor": "^5.11.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.isequal": "^4.5.0",
+    "qs": "^6.5.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-plotly.js": "^1.0.4",
+    "react-select": "^1.0.0-rc.5",
+    "react-split-pane": "^0.1.71"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
