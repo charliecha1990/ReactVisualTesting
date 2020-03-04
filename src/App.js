@@ -61,14 +61,14 @@ class App extends Component {
             ],
             layout: {
                 plotBackground: '#f3f6fa',
-                margin: {t:0, r: 20, l: 60, b: 30},
+                margin: {t: 100, r: 20, l: 60, b: 30},
                 xaxis: {
                     range: ["BMW", "Audi", "Lexus",'Ford']
                 },
                 yaxis: {
                     range: ['Auto', 'Manual','Automatic' ]
                 },
-                title: "Data Labels Hover"
+                title: "XXX Inventory 0f 2020"
             }
         };
 
@@ -207,7 +207,7 @@ class App extends Component {
                         <Plot
                             data={this.state.json.data}
                             layout={this.state.json.layout}
-                            config={{displayModeBar: false}}
+                            config={{displayModeBar: true}}
                         />
                     </div>
                 </SplitPane>
