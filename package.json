@@ -6,7 +6,7 @@
     "jsoneditor": "^5.11.0",
     "lodash.clonedeep": "^4.5.0",
     "lodash.isequal": "^4.5.0",
-    "qs": "^6.5.0",
+    "qs": "^6.6.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-plotly.js": "^1.0.4",
